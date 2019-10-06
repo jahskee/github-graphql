@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+//  height: 1000px;
+}
+
+.content {
+  flex-grow: 1;
+  //border: 1px solid red;
+}

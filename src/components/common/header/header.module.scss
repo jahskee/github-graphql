@@ -1,0 +1,43 @@
+.header {
+ //background:red;
+ display: flex;
+ flex-direction: column;
+}
+.title {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav {
+  margin: 0 auto;
+  width: 100%;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  background: lightgray;
+  padding: 0 10px;
+}
+.nav-item {
+  color: #999999;
+  font-size: 14px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.active-nav-item {
+  color: #333333;
+}
+
+.nav-list > li {
+  margin: 0;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  text-align: center;
+}

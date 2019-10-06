@@ -1,0 +1,23 @@
+const EXCHANGE_RATES = gql`
+  query {
+    search(
+      query: "name: ${searchKey}",
+      type: REPOSITORY,
+      last: 100
+    ) {
+      repositoryCount
+      repos: edges {
+        repo: node {
+          ... on Repository {
+            owner {
+              login
+              avatarUrl
+            }
+            name
+            url
+          }
+        }
+      }
+    }
+  }
+  `;

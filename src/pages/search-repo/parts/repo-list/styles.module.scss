@@ -1,0 +1,49 @@
+.container {
+padding-left: 50px;
+}
+
+.field {
+display: flex;
+flex-direction: row;
+border-top: 1px solid lightgray;
+padding: 4px 5px;
+}
+
+.field:hover {
+  background-color: darkgray;
+}
+
+.header-field {
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.col1 {
+width: 70%;
+
+}
+.col2 {
+width: 30%;
+}
+
+.right-box {
+  width: 50%;
+  border: 1px solid lightgray;
+  padding: 10px;
+
+  .col1 {
+    width: 30%
+  }
+  .col2 {
+    width: 70%
+  }
+}
+
+.info-row {
+  display: flex;
+  padding-left: 50px;
+  flex-direction: "row"; 
+  justify-content: center;
+}
