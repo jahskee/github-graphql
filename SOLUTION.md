@@ -58,5 +58,6 @@
 
       - make use of Observer and PubSub patterns
 
-      - remove unnecessary console.log, console.debug or etc
+      - remove unnecessary console.log, console.debug or etc, 
+        although this can be automated in with linting auto fix tool.
       
