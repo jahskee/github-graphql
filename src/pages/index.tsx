@@ -5,10 +5,11 @@ import ReactMarkdown from 'react-markdown';
 const Instruction = () => {
   const markdown = `
     ### Instruction
-      cd ~/dev
-      git clone git@github.com:jahskee/gatsby-app1.git gatsby-app01
-      cd gatsby-app01
-      npm start
+
+      git clone git@github.com:jahskee/github-graphql.git
+      cd github-graphql
+      npm install # yarn
+      npm start   # yarn start
   `;
   return (
     <Layout>
